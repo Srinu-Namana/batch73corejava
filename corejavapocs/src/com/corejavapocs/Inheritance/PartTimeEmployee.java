@@ -1,6 +1,6 @@
 package com.corejavapocs.Inheritance;
 
-public class PartTimeEmployee extends Employee{
+public class PartTimeEmployee extends Employee {
 
 	@Override
 	String Hello() {

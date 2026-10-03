@@ -1,4 +1,4 @@
-package corejavapocs.switchcase;
+package com.corejavapocs.switchcase;
 
 import java.util.Scanner;
 

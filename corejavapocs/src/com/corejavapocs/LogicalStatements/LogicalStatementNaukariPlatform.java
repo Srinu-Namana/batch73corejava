@@ -1,4 +1,4 @@
-package corejavapocs.LogicalStatements;
+package com.corejavapocs.LogicalStatements;
 
 import java.util.Scanner;
 

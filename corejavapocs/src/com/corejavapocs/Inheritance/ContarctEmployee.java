@@ -8,9 +8,9 @@ public class ContarctEmployee extends Employee {
 	}
 
 	double calculateSalary(double basic) {
-		
+
 		return basic;
-		
+
 	}
 
 	void employeeBenfits() {

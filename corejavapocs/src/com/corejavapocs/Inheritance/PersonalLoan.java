@@ -12,8 +12,8 @@ public class PersonalLoan extends Loan {
 //	private int add() {  // we have write the same method But can't @override the private method 
 //		return 5;
 //	}
-	
-	void personalDoc() { 
+
+	void personalDoc() {
 		System.out.println("personalLoans documents have been received successfully");
 	}
 

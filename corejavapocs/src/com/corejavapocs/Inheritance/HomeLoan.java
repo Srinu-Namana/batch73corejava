@@ -11,7 +11,7 @@ public class HomeLoan extends Loan {
 		System.out.println("welcome to Home Loans:");
 
 		HomeLoan hl = new HomeLoan();
- 
+
 		boolean isValidPhone = hl.isValidPhone();
 		boolean isValidAadhar = hl.isValidAadhar();
 		boolean isValidPanCard = hl.isValidPanCard();
@@ -31,7 +31,7 @@ public class HomeLoan extends Loan {
 			if (Salary >= 500000.00 && (age >= 20 && age <= 45) && (Cibil >= 300 && Cibil <= 900)) {
 
 				System.out.println("congratulations....your eligible for HOME LOAN");
-				
+
 				hl.HomeDoc();
 
 				System.out.println("your rate of intrest" + " " + hl.getROI());

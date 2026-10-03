@@ -1,4 +1,4 @@
-package corejavapocs.switchcase;
+package com.corejavapocs.switchcase;
 
 import java.util.Scanner;
 
@@ -46,7 +46,7 @@ public class SwitchLibraryManagementSystem {
 					System.out.println("invalid book");
 
 				}
-	
+
 			}
 			break;
 		}

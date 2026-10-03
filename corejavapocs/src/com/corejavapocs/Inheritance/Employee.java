@@ -3,8 +3,6 @@ package com.corejavapocs.Inheritance;
 import java.util.*;
 
 public class Employee {
-	
-	
 
 	String Hello() {
 		return "Employee";

@@ -15,7 +15,6 @@ public class CarLoan extends Loan {
 		boolean isValidPhone = cl.isValidPhone();
 		boolean isValidAadhar = cl.isValidAadhar();
 		boolean isValidPanCard = cl.isValidPanCard();
-	
 
 		if (isValidPhone && isValidAadhar && isValidPanCard) {
 
@@ -28,18 +27,14 @@ public class CarLoan extends Loan {
 			double Cibil = cl.getCibil();
 
 			int age = cl.getAge();
-			
-			
 
 			if (Salary >= 500000.00 && (age >= 20 && age <= 45) && (Cibil >= 300 && Cibil <= 900)) {
-				
+
 				System.out.println("congratulations....your eligible for HOME LOAN");
-				
+
 				cl.CarDoc();
 
 				System.out.println("your rate of intrest" + " " + cl.getROI());
-				
-				
 
 			} else {
 

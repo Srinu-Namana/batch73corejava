@@ -6,13 +6,13 @@ import java.util.Scanner;
 public class Loan {
 
 	String hello() {
-		return "Loan";       //method
+		return "Loan"; // method
 	}
 
 	private int add() {
 		return 5;
 	}
-	
+
 	static Scanner sc = new Scanner(System.in);
 
 	String getCustomerName() {
